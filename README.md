@@ -1,0 +1,1 @@
+This repository demonstrates an unusual aspect of Java's exception handling.  In a typical try-catch block, one might expect that if an exception is caught and handled, the variables involved would be updated accordingly.  This example shows that's not always the case. The original value of x remains 5 even though the Integer.parseInt throws an exception.
